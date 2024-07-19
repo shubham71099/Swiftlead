@@ -231,7 +231,7 @@ input[type="email"] {
 }
 #preloader img {
     width: 100vw;
-    height: auto;
+    height: 100vh;
     animation: spin 2s linear infinite;
 }
 
