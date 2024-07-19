@@ -9,6 +9,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -20,37 +21,51 @@
             </video>
         </div>
 
-            <div class="form">
+        <div class="form">
                       
-              <form action="#">
-
-                
+              <form action="https://getform.io/f/azylnopb" method="POST">  
                 <label for="email" class="email">Would you use Swiftlead ? *</label><br>
                 <div class="radio-group">
                     <label for="yes">
-                        <input type="radio" id="yes" name="swift" value="yes" required>
+                        <input type="radio" id="yes" name="useInFuture" value="Yes" required>
                         Yes
                     </label>
                     <label for="no">
-                        <input type="radio" id="no" name="swift" value="no" required>
+                        <input type="radio" id="no" name="useInFuture" value="No" required>
                         No
                     </label>
                 </div>
-        
                 <div class="input-box">
                   <label for="feedback" class="email">Additional Feedback (optional)</label>
-                  <input type="text" name="email" placeholder="please give your honest feedback">
+                  <input type="text" name="Feedback" placeholder="please give your honest feedback">
                 </div>
                 <div class="input-box">
                     <label for="email" class="email">Email (optional)</label>
-                    <input type="text" name="email" placeholder="please enter your email">
+                    <input type="email" name="Email" placeholder="please enter your email">
                   </div><br><br>
 
                 <button type="submit" class="btn">Submit</button>
             
               </form>
-
           </div>
+         
+        <section class="news-letter" id="News-letter">
+            <div class="news">
+                <div class="container">
+                    <h1 class="news-heading">Subscribe to our Newsletter</h1>
+                    <p class="des how-de">Add your email to be the first to hear about the latest software release</p>
+            
+                    <form class="form2" action="">
+                        <div class="input-group">
+                            <input type="email" maxlength="50" required placeholder="Enter your email address">
+                            <button class="bt" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>    
+        </section>
+        
+
 
     </div>
 </body>

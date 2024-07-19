@@ -117,3 +117,60 @@ body {
     background-color: #7eb2dd;
   }
    
+  .news {
+    padding: 4.8px 0 9.6px 0;
+    text-align: center;
+}
+
+.news-heading {
+    font-size: 3em;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.news p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.form2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-group {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input[type="email"] {
+    flex: 1;
+    padding: 18px 36px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.06);
+    font-size: 16px;
+    box-sizing: border-box;
+    
+}
+
+.bt {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px 32px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #48b774;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.bt:hover {
+    background-color: #3e9b5a;
+}
